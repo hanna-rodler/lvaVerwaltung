@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LVA Verwaltung</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="container">
+	<nav class="col col-18">
+		<ul id="lvaMenu">
+			<li id="overview">Übersicht LVA<span id="plus">&#9547;</span></li>
+		</ul>
+	</nav>
+	<main class="col col-50">
+		<div id="newLVA">
+			<h1>Neue LVA anlegen</h1>
+			<form>
+				<div class="row">
+					<label for="lvaNr" class="col col-40">Nr.</label>
+					<input type="text" name="lvaNr" id="lvaNr" class="col col-60"
+					       required>
+				</div>
+				<div class="row">
+					<label for="lvaName" class="col col-40">Bezeichnung</label>
+					<input type="text" name="lvaName" id="lvaName" class="col col-60"
+					       required>
+				</div>
+				<div class="row">
+					<label for="description" class="col col-40">Beschreibung</label>
+					<textarea id="description" name="description"
+					          class="col col-60" required></textarea>
+				</div>
+				<div class="row">
+					<label for="semester" class="col col-40">Semester</label>
+					<div class="col col-60">
+						<input type="number" name="semester" id="semester"
+						       min="1" max="6" required>
+					</div>
+				</div>
+				<div class="row">
+					<label for="type" class="col col-40">Typ</label>
+					<div class="col col-60">
+						<select name="lvaType" id="type" required>
+							<option value="VL">VL</option>
+							<option value="ILV">ILV</option>
+							<option value="UE">UE</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<label for="profs" class="col col-40">Professor</label>
+					<div class="col col-60">
+						<select name="profs" id="profs" required>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<label for="maxParticipants" class="col col-40">Max.
+						Teilnehmeranzahl</label>
+					<div class="col col-60">
+						<input type="number" name="maxParticipants" id="maxParticipants"
+						       min="0" max="50" required>
+					</div>
+				</div>
+				<div class="alignRight">
+					<input type="submit" value="Speichern" id="save">
+				</div>
+			
+			</form>
+		</div>
+		<div id="lvaView">
+			<form>
+				<div class="row" id="appendNr">
+				</div>
+				<div class="row" id="appendName">
+				</div>
+				<div class="row">
+					<div class="col col-50">
+						<ul id="selStudents" class="studSelector">
+						</ul>
+					</div>
+					<div class="col col-50">
+						<ul id="allStudents" class="studSelector">
+						</ul>
+					</div>
+				</div>
+			</form>
+		</div>
+	</main>
+	<div class="col col-15">
+		<img src="img/FHO_Logo_ohneZusatz.jpg" width="150px" alt="FH Logo">
+	</div>
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/Person.js"></script>
+<script type="text/javascript" src="js/LVA.js"></script>
+<script type="text/javascript" src="js/LVAMgtSystem.js"></script>
+</body>
+</html>

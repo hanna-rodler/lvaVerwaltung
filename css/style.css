@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+    border-top: 1em solid #931919;
+    margin: 0;
+    background: #EDEDED;
+}
+
+h1, h2{
+    color: #931919;
+    font-family: "Verdana Pro", sans-serif;
+}
+
+h2{
+    margin-top: 1.2em;
+}
+
+#container{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    width: 85%;
+    background-color: white;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+}
+
+.col:last-child{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.col-18{
+    width: 18%;
+}
+
+.col-15{
+    width: 15%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+    margin-right: 0;
+}
+
+#semester, #type, #profs, #maxParticipants{
+    width: fit-content;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+div label, input, textarea, select{
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+div label{
+    font-weight: bolder;
+    color: #931919;
+
+}
+
+.alignRight{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav li {
+    border-top: 1px solid #931919;
+    width: 90%;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-right: 0;
+    color: #931919;
+}
+
+nav li:first-child{
+    background: #931919;
+    color: white;
+    padding-top: 0.8em;
+}
+
+li span{
+    margin-left: 1.3em;
+    font-size:2em;
+    font-weight: bold;
+    color: white;
+    padding: -0.2em;
+}
+
+img{
+    margin-top: 1.8em;
+}
+
+input[type='submit']{
+    background: #618339;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.readOnly, .readOnly:hover, .readOnly:focus{
+    background-color: #EDEDED;
+    color: #931919;
+    border: 1px solid black;
+    outline: none;
+}
+
+.studSelector{
+    border: 2px solid #931919;
+}
+
+.studSelector li{
+    padding: 0.3em;
+}
+
+.listHeader{
+    font-size: 1.2em;
+    color: white;
+    background-color: #931919;
+}

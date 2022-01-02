@@ -1,0 +1,204 @@
+{
+	"name": "InitialLVAs",
+	"initialLVAs": [
+		{
+			"nr": "KWM225",
+			"name": "Serverseitige Web-Programmierung",
+			"descrip": "Weiterführende Programmierung für dynamische und skalierbare Web-Anwendungen; Planung und Umsetzung von anspruchsvollen Multimedia-Anwendungen, Aspekte von Software-Architektur und Design Patterns, Arbeiten mit Frameworks (zB Sass, Less, AngularJS), Einbindung von externen APIs und Services (zB Google Maps), ausgewählte APIs von HTML5 Extension-Programmierung für CMS Systeme (aufbauend auf Content Management im 3. Semester und als Vertiefung für Web-Programmierung);",
+			"semester": "4",
+			"type": "VO",
+			"prof": {
+				"firstName": "Johannes",
+				"lastName": "Schönböck",
+				"occupationGroup": "HBL"
+			},
+			"maxParticipants": "40",
+			"students": [
+				{
+					"firstName": "Jonas",
+					"lastName": "Haas",
+					"matrNr": "1910456014"
+				},
+				{
+					"firstName": "Linda",
+					"lastName": "Lackner",
+					"matrNr": "1910456019"
+				}
+			]
+		},
+		{
+			"nr": "KWM361",
+			"name": "Adaptive Systeme",
+			"descrip": "Personalisierte Systeme: Unterscheidung zwischen Konfigurierbarkeit, Adaptierbarkeit und Adaptivität, Adaptivität und Benutzermodellierung in interaktiven Systemen, technische und konzeptionelle Grundlagen zu Recommender Systemen (kollaboratives Filtern und inhaltsbasierte Ansätze), Sicherheitsaspekte und Privatsphäre in personalisierten Systemen, Benutzerfreundlichkeit und Evaluation adaptiver Systeme.",
+			"semester": "6",
+			"type": "UE",
+			"maxParticipants": "20",
+			"prof": {
+				"firstName": "Mirjam",
+				"lastName": "Augstein",
+				"occupationGroup": "HBL"
+			},
+			"students": [
+				{
+					"firstName": "Matthias",
+					"lastName": "Moor",
+					"matrNr": "1810456021"
+				},
+				{
+					"firstName": "Nadia",
+					"lastName": "Weber",
+					"matrNr": "1810456032"
+				},
+				{
+					"firstName": "Sergio",
+					"lastName": "Niño",
+					"matrNr": "1810456018"
+				}
+			]
+		},
+		{
+			"nr": "KWM100",
+			"name": "Programmieren",
+			"descrip": "Grundlagen Programmieren in Java",
+			"semester": "1",
+			"type": "UE",
+			"maxParticipants": "20",
+			"prof": {
+				"firstName": "Wolfgang",
+				"lastName": "Schreiner",
+				"occupationGroup": "HBL"
+			},
+			"students": [
+			]
+		}
+	],
+	"studentsList": [
+		{
+			"firstName": "Hanna",
+			"lastName": "Rodler",
+			"matrNr": "2010456026"
+		},
+		{
+			"firstName": "Hannes",
+			"lastName": "Reisinger",
+			"matrNr": "2010456025"
+		},
+		{
+			"firstName": "Laura",
+			"lastName": "Haas",
+			"matrNr": "2010456012"
+		},
+		{
+			"firstName": "Lisbeth",
+			"lastName": "Sandhacker",
+			"matrNr": "2010456033"
+		},
+		{
+			"firstName": "Josephine",
+			"lastName": "Wichmann",
+			"matrNr": "2010456034"
+		},
+		{
+			"firstName": "Jonas",
+			"lastName": "Haas",
+			"matrNr": "1910456014"
+		},
+		{
+			"firstName": "Linda",
+			"lastName": "Lackner",
+			"matrNr": "1910456019"
+		},
+		{
+			"firstName": "Lisa",
+			"lastName": "Rodler",
+			"matrNr": "1910456026"
+		},
+		{
+			"firstName": "Paul",
+			"lastName": "Rodler",
+			"matrNr": "1910456027"
+		},
+		{
+			"firstName": "Maria",
+			"lastName": "Gschwind",
+			"matrNr": "1910456008"
+		},
+		{
+			"firstName": "Sergio",
+			"lastName": "Niño",
+			"matrNr": "1810456018"
+		},
+		{
+			"firstName": "Matthias",
+			"lastName": "Moor",
+			"matrNr": "1810456021"
+		},
+		{
+			"firstName": "Nadia",
+			"lastName": "Weber",
+			"matrNr": "1810456032"
+		},
+		{
+			"firstName": "Nadine",
+			"lastName": "Sallinger",
+			"matrNr": "1810456028"
+		},
+		{
+			"firstName": "Sandra",
+			"lastName": "Grahuber",
+			"matrNr": "1810456015"
+		},
+		{
+			"firstName": "Line",
+			"lastName": "Atzinger",
+			"matrNr": "1810456001"
+		}
+	],
+	"profList": [
+		{
+			"firstName": "Johannes",
+			"lastName": "Schönböck",
+			"occupationGroup": "HBL"
+		},
+		{
+			"firstName": "Mirjam",
+			"lastName": "Augstein",
+			"occupationGroup": "HBL"
+		},
+		{
+			"firstName": "Tanja",
+			"lastName": "Jadin",
+			"occupationGroup": "HBL"
+		},
+		{
+			"firstName": "Wolfgang",
+			"lastName": "Schreiner",
+			"occupationGroup": "NBL"
+		},
+		{
+			"firstName": "Alexander",
+			"lastName": "Adlhoch",
+			"occupationGroup": "NBL"
+		},
+		{
+			"firstName": "Christina",
+			"lastName": "Ortner",
+			"occupationGroup": "HBL"
+		},
+		{
+			"firstName": "Daniel",
+			"lastName": "Knittl-Frank",
+			"occupationGroup": "NBL"
+		},
+		{
+			"firstName": "Josef",
+			"lastName": "Altman",
+			"occupationGroup": "HBL"
+		},
+		{
+			"firstName": "Carrie",
+			"lastName": "Kovacs",
+			"occupationGroup": "HBL"
+		}
+	]
+}
